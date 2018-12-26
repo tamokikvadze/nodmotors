@@ -1,0 +1,204 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+@font-face {
+  font-family: motors;
+  src: url(../fonts/pantonmtav3-bold.ttf);
+}
+body{
+	font-family: motors;
+}
+a{
+	text-decoration: none;
+}
+
+header{
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 1084px;
+	/*margin: auto;*/
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+.logo{
+	width: 154px;
+	height: 40px;
+	margin-top: 30px;
+}
+.nav{
+	display: flex;
+	text-decoration: none;
+	margin-top: 30px;
+	color: white;
+	font-size: 14px;
+}
+
+ul{
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+
+}
+.elements li:last-child{
+	background-image: linear-gradient(#badc58, #6Ab04c);
+	padding: 11px 33px;
+	border-radius: 30px;
+	margin-left: 27px;
+
+}
+.elements li a:hover{
+	background-image: none;
+	color: #6AB04C;
+}
+.elements li:last-child a{
+	color: white;
+}
+.elements li:last-child:hover{
+	background-image: none;
+	background-color: #181818;
+}
+
+nav a{
+	color: #2a2b30;
+}
+.elements li{
+	padding: 7px;
+
+}
+.hero-content {
+	/*max-width: 1084px;*/
+	margin:auto;
+}
+.slide{
+	position: relative;
+	top: 74px;
+	width: 100%;
+	margin: 0 auto;
+}
+.tesla-items li{
+	list-style-type: none;
+}
+.tesla-items{
+	display: flex;
+	justify-content: space-around;
+}
+.tesla-list{
+	display: flex;
+	flex-direction: column;
+}
+.nav-button{
+	width: 72px;
+	height: 30px;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	bottom: 20px;
+	right: 0;
+	transition: all 300ms;
+}
+.swiper-button-prev,
+.swiper-button-next{
+	width: 30px;
+	height: 30px;
+	background-image: linear-gradient(#badc58, #6Ab04c);
+	border-radius: 50%;
+	box-sizing: border-box;
+	margin:0;
+	background-size: 30px;
+	position: unset;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #181818;
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover{
+	background-color: #181818;
+	background-image: none;
+	transition: all 300ms;
+}
+polyline{
+	fill: transparent;
+	stroke: #FFFFFF;
+	stroke-linecap: round;
+}
+.swiper-container{
+	max-width: 1084px;
+
+}
+.hero-content{
+	background-color: #E8F0F3;
+}
+.swiper-slide:before{
+	content: "nodmotors";
+	font-size: 240px;
+	color: white;
+	display: block;
+	position: absolute;
+	z-index: -1;
+}
+.scroll{
+
+}
+
+.product-filters{
+	display: flex;
+	text-decoration: none;
+	width: 164px
+	height: 40px;
+	border-radius: 30px;
+	background-color: #FFFFFF;
+}
+.product-filters{
+	list-style-type: none;
+}
+
+.cars{
+	max-width: 1084px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.cars li{
+	list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 48px;
+    margin-top: 48px;
+}
+.from{
+	align-self: flex-end;
+	font-size: 12px;
+}
+.price{
+	color: #6AB04C;
+}
+.span{
+	font-size: 10px;
+}
+.cars h3{
+	font-size: 20px;
+}
+.color{
+	background-color: red;
+	box-sizing: border-box;
+	border-color: #95A5A6;
+	width: 12px; 
+	height: 12px;
+	border-radius: 50%;
+	margin: 0;
+	position: unset;
+	display: flex;
+	justify-content: flex-end;
+}
+.footer{
+	display: flex;
+	justify-content: space-around;
+}
